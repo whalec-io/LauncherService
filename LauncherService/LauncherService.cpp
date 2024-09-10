@@ -144,7 +144,7 @@ void WorkThread()
 		{
 			if ( executed = RunAsExplorer(process_path.c_str()) )
 			{
-				spdlog::error("[WorkThread] run process");
+				spdlog::info("[WorkThread] run process");
 			}
 			else
 			{
